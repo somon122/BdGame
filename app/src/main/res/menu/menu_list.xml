@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:id="@+id/home_id"
+        />
+ <item android:title="Covert into money"
+        android:id="@+id/convert_id"
+        />
+
+    <item android:title="Withdraw money"
+        android:id="@+id/withdraw_id"
+
+        />
+    <item android:title="Rules"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share"
+        android:id="@+id/rules_id"
+        />
+    <item android:title="LogOut"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_logout"
+        android:id="@+id/logOut_id"
+
+        />
+
+</menu>

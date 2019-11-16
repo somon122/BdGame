@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashBoard_id"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/convertPoint_id"
+            android:icon="@drawable/convert"
+            android:title="Convert Point " />
+        <item
+            android:id="@+id/withdrawActivity_id"
+            android:icon="@drawable/withdraw_balance_wallet"
+            android:title=" Withdraw " />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/rulesShow22_id"
+                android:icon="@drawable/rules"
+                android:title="Trams and Conditions" />
+            <item
+                android:id="@+id/logOut_id2"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
